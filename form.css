@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(5.jpg);
+    background-color: #07071a;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.form-container {
+    backdrop-filter: blur(15px);
+    width: 100%;
+    max-width: 650px;
+    margin: 5px auto;
+    padding: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+input,textarea {
+    font-family: 'Courier New', Courier, monospace;
+    background: transparent;
+    border: none;
+    border-bottom: 2.2px solid #ff004c;
+    padding: 10px 5px;
+    font-size: 18px;
+    outline: none;
+}
+input::placeholder,
+textarea::placeholder {
+    color: #ffffff;
+}
+textarea {
+    resize: none;
+    height: 120px;
+}
+button {
+    font-size: 15px;
+    align-self: center;
+    display: block;
+    margin: 20px auto 0 auto;
+    position: relative;
+    height: 40px;
+    width: 120px;
+    background: #ff0000;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    color: #000000;
+    border-color: red;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0.1em #ff0f80;
+    text-align: center;
+    text-decoration: none;
+    line-height: 15px;
+}
+button i {
+    margin-left: 8px;
+}
+button:hover {
+    background: red;
+    color: #fff;
+    box-shadow: 0 0 20px 0.1em #ff0f80;
+}
+.go-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 110px;
+    margin-left: 220px;
+    margin-top: 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #ff000096;
+    font-weight: bold;
+    font-size: 13px;
+}
+.go-back i {
+    font-size: 10px;
+}
+.go-back:hover {
+    background: red;
+    color: #fff;
+    box-shadow: 0 0 20px 0.1em #ff0f80;
+}
